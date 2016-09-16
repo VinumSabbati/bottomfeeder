@@ -1,0 +1,61 @@
+body{
+  opacity: 1;
+  transition: 3s opacity;
+  background-image: url("baph.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 35%;
+}
+body.fade-out{
+  opacity: 0;
+  transition: none;
+}
+@media only screen and (min-width: 500px) {
+    body {
+      background-image: url("background.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: 50% 40%;
+    }
+}
+.center{
+  padding-top: 52px;
+  margin-left: 5px;
+  margin-right: 5px;
+  min-height: 100%;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h4{
+  color: black;
+  font-size: 30px;
+  font-family: stencil;
+  letter-spacing: 2px;
+}
+.navbar-brand{
+  padding-top: 10px;
+  border-right: 1px solid #9D9D9D;
+}
+ul{
+  -webkit-padding-start: 0px;
+}
+.icon i {
+  padding: 10px;
+  color: black;
+  font-size: 30px;
+  transition: text-shadow ease-out .5s;
+}
+.icon i:hover{
+  cursor: pointer;
+  text-shadow: 0 0 30px red;
+}
+li {
+  display: inline;
+  font-weight: bold;
+  font-family: lucida;
+}
+.text{
+  margin-top: 10px;
+}
